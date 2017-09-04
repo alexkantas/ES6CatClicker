@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>KO Cat Clicker</title>
+    <!-- <link rel="stylesheet" href="../src/css/style.css"> -->
+    <link rel="stylesheet" href="../dist/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Cats</h1>
+        <a href="https://github.com/alexzzzboom/">View Code on Github</a>
+    </nav>
+    <main>
+        <div id="mainCatArea" data-bind="with: currentCat()">
+            <h3><span data-bind="text: name">CatName</span> has <span data-bind="text: clicks">NubmerOfClicks</span> clicks</h3>
+            <div>
+                <img class="image" alt="Cat" data-bind="click: $parent.increaseCatClicks,attr:{alt: name, src: image}">
+            </div>
+        </div>
+        <div id="amdinArea">
+            <button id="adminMode" data-bind="click: changeAdminStatus">Admin Mode </button>
+            <div id="adminForm" data-bind="css: { hidden: adminStatus() }">
+                <h3>You are Admin now!</h3>
+            </div>
+        </div>
+        <ul id="catBar" data-bind="foreach: catList">
+            <li>
+                <p data-bind="text: name"></p>
+                <img class="image" alt="Cat" data-bind="click: $parent.putCatToMainArea,attr:{alt: name, src: image}">
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="floatItem">Created by Alex Kantas</div>
+    </footer>
+    <script src="js/knokcout.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

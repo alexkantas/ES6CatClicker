@@ -1,0 +1,39 @@
+module.exports = {
+  src: __webpack_public_path__ + "luis-mezquita-72072-1280@90.jpg",
+  width: 1280,
+  height: 848,
+  toString: function() {return __webpack_public_path__ + "luis-mezquita-72072-1280@90.jpg";},
+  srcset: [__webpack_public_path__ + "luis-mezquita-72072-320@90.jpg" + " 320w", __webpack_public_path__ + "luis-mezquita-72072-640@90.jpg" + " 640w", __webpack_public_path__ + "luis-mezquita-72072-960@90.jpg" + " 960w", __webpack_public_path__ + "luis-mezquita-72072-1280@90.jpg" + " 1280w", __webpack_public_path__ + "luis-mezquita-72072-1920@90.jpg" + " 1920w"].join(', '),
+  placeholder: {
+    src: "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAVACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDAf/EAB0QAAICAgMBAAAAAAAAAAAAAAABAhEhQQMSMWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALiWRFojk5H2xhEUnOSnJJ4+lQtxtvZld+5NFJONLQGabR2WUAUSlYT6utAEH//Z",
+    width: 32,
+    height: 21
+  },
+  images: [
+    {
+      src: __webpack_public_path__ + "luis-mezquita-72072-320@90.jpg",
+      width: 320,
+      height: 212
+    },
+    {
+      src: __webpack_public_path__ + "luis-mezquita-72072-640@90.jpg",
+      width: 640,
+      height: 424
+    },
+    {
+      src: __webpack_public_path__ + "luis-mezquita-72072-960@90.jpg",
+      width: 960,
+      height: 636
+    },
+    {
+      src: __webpack_public_path__ + "luis-mezquita-72072-1280@90.jpg",
+      width: 1280,
+      height: 848
+    },
+    {
+      src: __webpack_public_path__ + "luis-mezquita-72072-1920@90.jpg",
+      width: 1920,
+      height: 1272
+    }
+  ]
+};

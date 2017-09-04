@@ -1,0 +1,54 @@
+.halfColumn{
+    width: 45%;
+    margin: 2em 1em;
+    display: inline-block;
+    overflow: hidden;
+    max-height: 80vh;
+}
+
+#mainCatArea {
+    vertical-align: top;
+    height: auto;
+    width: 55%;
+    margin-left: 2em;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#sideBar{
+    width: 20%;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 90vh;
+}
+
+#sideBar  li {
+    list-style: none;
+}
+
+#sideBar  li > img{
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+#amdinArea{
+   vertical-align: top;
+   display: inline-block;
+   width: 20%; 
+}
+
+#adminForm{
+    margin-top: 2em;
+}
+
+.image{
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

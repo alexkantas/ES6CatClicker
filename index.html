@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 Cat Clicker</title>
+    <!-- <link rel="stylesheet" href="src/css/style.css"> -->
+    <link rel="stylesheet" href="dist/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Cats</h1>
+        <a href="https://github.com/alexzzzboom/">View Code on Github</a>
+    </nav>
+    <main>
+        <div id="mainCatArea"></div>
+        <div id="amdinArea">
+            <button id="adminMode">Admin Mode </button>
+            <div id="adminForm" class="hidden">
+                <p>Cat Name <input id="catNameInpt" type="text" /></p>
+                <p>Cat Image <input id="catImageInpt" type="text" /></p>
+                <p>Cat Clicks <input id="catClickInpt" type="text" /></p>
+                <button id="cancelBtn">Cancel</button>
+                <button id="saveBtn">Save</button>
+            </div>
+        </div>
+        <ul id="catBar"></ul>
+    </main>
+    <footer>
+        <div class="floatItem">Created by Alex Kantas</div>
+    </footer>
+    <script src="dist/bundle.js" nomodule></script>
+    <script type=module src="src/js/mainChrome.js"></script>
+</body>
+
+</html>
